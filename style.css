@@ -14,7 +14,7 @@
 html {
 	height: 100%;
 	background: white;
-	background: radial-gradient(circle, #fff 20%, #ccc);
+	background: radial-gradient(circle, #fff 20%, #9dd2ea);
 	background-size: cover;
 }
 
@@ -27,7 +27,7 @@ html {
 	padding: 20px 20px 9px;
 	
 	background: #9dd2ea;
-	background: linear-gradient(#9dd2ea, gray);
+	background: linear-gradient(#ae0800, gray);
 	border-radius: 3px;
 	box-shadow: 0px 4px gray, 0px 10px 15px rgba(0, 0, 0, 0.2);
 }
@@ -162,5 +162,3 @@ p{
 
 
 }
-
-	
