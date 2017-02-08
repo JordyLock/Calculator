@@ -10,4 +10,8 @@
  +Toen heb ik de functies gemaakt om de operators zoals + op het scherm te laten zien.
  +
  +En als laatste heb ik mijn uitkomst functie gemaakt, als je daarop klikt dan rekent hij de som uit en zet
+<<<<<<< HEAD
  +de uitkomst in de register.
+=======
+ +de uitkomst in de register.
+>>>>>>> de4c5e7180a4c1ae7b440365007e7c78d8b6c47d

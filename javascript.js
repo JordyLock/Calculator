@@ -16,6 +16,7 @@ register.innerHTML = register.innerHTML + event.target.innerHTML;
 	document.getElementById("btn8").addEventListener("click", test);
 	document.getElementById("btn9").addEventListener("click", test);
 	document.getElementById("btn0").addEventListener("click", test);
+	document.getElementById("btn.").addEventListener("click", test);
 
 
 var getal1 = register.innerHTML;
@@ -80,18 +81,18 @@ console.log(status + " status");
     answer  = "=";
 getal2 = register.innerHTML;
 if (status === "1"){
-	result = +(Number(getal1) + Number(getal2)).toFixed(1);
+	result = ((Number(getal1) *10) + (Number(getal2)*10))/10;
 }	
 	else if (status === "3") {
-		result = Number(getal1) / Number(getal2);
+		result = ((Number(getal1) *10) / (Number(getal2)*10));
 	}
 	else if (status === "4") {
 
-	result = Number(getal1) * Number(getal2);
+	result = ((Number(getal1)*10) * (Number(getal2)*10))/10;
 
 }
 	else if (status === "2") {
-		result = +(Number(getal1) - Number(getal2)).toFixed(1);
+		result = ((Number(getal1)*10) - (Number(getal2)*10))/10;
 	}
 
     document.getElementById("register").innerHTML = result;
